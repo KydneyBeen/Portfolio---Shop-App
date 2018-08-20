@@ -1,0 +1,58 @@
+#root {
+  text-align:center;
+}
+
+.header__title--background {
+  background-image: url("./stockinette.jpg");
+  height:200px;
+
+}
+.header__title--position {
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  
+}
+.header__title--style {
+  display: inline;
+  background-color: lightgrey;
+  font-size: 3rem;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header__title--style a, a:hover{
+  color:grey;
+  text-decoration:none;
+}
+
+.itemDetail__close--button {
+  color:grey;
+  text-align:right;
+}
+
+.itemDetail__close--button a, a:hover{
+  color:grey;
+  text-decoration:none;
+}
+
+.product__image--size{
+  width:200px;
+}
+
+.product__itemDetail--box{
+  border-style:double;
+  border-width:3px;
+  padding:10px;
+  border-color:grey;
+  text-align:left;
+}
+
+.product__listing--display{
+  display:inline-block;
+}
+
+.product__sku--holder {
+  display:inline-block;
+  padding:5px;
+  border-style:outset;
+}
+
